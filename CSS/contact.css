@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Gochi;
+  src: url("../fonts/GochiHand-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Gochi, sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* height: 100vh; */
+  background-color: grey;
+}
+
+h1, h2, p {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.fas {
+  margin: 0 1rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.fas:hover{
+  transform: scale(1.2);
+}
+
+.fa-glass-cheers{
+  color: red;
+}
+
+.fa-flag-checkered {
+  color: blue;
+}
+
+.fa-money-check-alt{
+  color: limegreen;
+}
+
+#map {
+  width: 70%;
+  margin: 0 auto;
+}

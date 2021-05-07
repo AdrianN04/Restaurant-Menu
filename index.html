@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="fontAwesome/css/all.css" />
+    <link
+      rel="icon"
+      href="images/restaurant-icon.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <title>Restaurant</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="description">
+        <img id="logo" src="images/logo.png" alt="Logo" />
+
+        <h1>Adrian's Restaurant</h1>
+      </div>
+      <nav>
+        <a id="appetizer" href="#"><i class="fas fa-carrot">Appetizer</i></a>
+        <a id="mainCourse" href="#"
+          ><i class="fas fa-drumstick-bite"> Main Course</i></a
+        >
+        <a id="dessert" href="#"><i class="fas fa-ice-cream">Dessert</i> </a>
+        <a id="drinks" href="#"><i class="fas fa-cocktail">Drinks</i> </a>
+      </nav>
+      <div class="contactAdress">
+        <a id="contact" href="HTML/contact.html" target="_blank"
+          ><i class="fas fa-search-location"></i
+        ></a>
+      </div>
+    </header>
+    <main>
+      <div class="filter">
+        <input
+          type="text"
+          id="filterInput"
+          name="filterInput"
+          value=""
+          placeholder="Filter by ingredients..."
+        />
+        <button id="filterButton">Filter</button>
+        <button id="showAllItems">Show Menu</button>
+      </div>
+      <p id="message" class="message">
+        Sorry for the trouble, we don't have these products!
+      </p>
+      <div id="menu">
+        <!-- <div class="menuItem">
+          <div class="img">
+            <img src="images/burger.jpg" alt="" />
+          </div>
+          <p>Burger</p>
+          <p>Ingredients: pork, salad, tomatoes, beef</p>
+          <button class="detailsBtn">Details</button>
+        </div> -->
+      </div>
+    </main>
+
+    <footer>
+      <p>Thank you for visiting us!</p>
+      <p>&copyCopyright by Adrian Neagu</p>
+    </footer>
+
+    <script src="JS/index.js"></script>
+  </body>
+</html>

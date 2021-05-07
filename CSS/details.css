@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Gochi;
+  src: url("../fonts/GochiHand-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
+
+h1 {
+  margin: 5% 0;
+  font-size: 2rem;
+  font-family: Gochi, sans-serif;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 3%;
+}
+
+img {
+  width: 70%;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+.menuItem p {
+  text-align: center;
+  text-indent: 0.4rem;
+  margin-top: 1rem;
+  width: 100%;
+  /* text-transform: capitalize; */
+  font-size: 1.2rem;
+}
+
+.nameClass {
+  font-weight: 800;
+  color: grey;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: 800;
+  color: brown;
+}
+
+.homeBtn {
+  padding: 0.5rem 3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5rem;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
